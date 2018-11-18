@@ -1,0 +1,108 @@
+.header-margin{
+    margin-bottom: 40px;
+    margin-top: 25px
+}
+
+.ng-logo{
+    border: 2px solid black;
+    border-radius: 50%;
+    width:35px;
+    text-align: center;
+    margin-right: 5px;
+    display: inline-block;
+}
+.DeActivated{
+    background-color: #b9bbbd;
+}
+.row-margin{
+    margin-bottom: 20px;
+}
+
+.searchInput{
+    font: 500 13px arial
+}
+.alert-margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.customers-list{
+    max-height: 500px;
+    overflow:auto;
+}
+.noDisplay{
+    display: none;
+    background-color: #495057;
+}
+.table-accounts-margin{
+    margin-top: 10px;
+}
+.btn-page{
+    margin-right: 5px;
+}
+a[data-name="listItem"] {
+    color: black;
+}
+
+    a[data-name="listItem"]:hover {
+        text-decoration: none;
+    }
+
+strong, small, table, input[data-name="btn-delete"] {
+    font-size: 13px;
+    font-family: Arial;
+}
+
+input[data-name="btn-delete"] {
+    padding: 2px;
+}
+
+#tblInputs {
+    margin-top: 15px;
+    width: 100%;
+}
+
+    #tblInputs tr td {
+        vertical-align: middle;
+        text-align: left;
+        width: auto
+    }
+
+input[data-type="inputForm"] {
+    padding: 5px;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.loader, .loaderSmall, .loaderRow {
+    margin: 100px auto;
+    border: 12px solid #f3f3f3; /* Light grey */
+    border-top: 12px solid #517c99; /* Blue */
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    animation: spin 2s linear infinite;
+}
+.loaderSmall{
+    margin: 5px auto;    
+    width: 40px;
+    height: 40px;
+    border: 8px solid #f3f3f3; /* Light grey */    
+    border-top: 8px solid #517c99; /* Blue */    
+}
+.loaderRow{
+    margin: 2px;
+    margin-left: 12px;
+    width: 25px;
+    height: 25px;
+    border: 4px solid #f3f3f3; /* Light grey */    
+    border-top: 4px solid #517c99; /* Blue */  
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
